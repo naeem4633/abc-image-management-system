@@ -7,4 +7,4 @@ class FinancialRecordSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = FinancialRecord
-        fields = ['__all__']
+        fields = '__all__'

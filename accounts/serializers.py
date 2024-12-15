@@ -5,7 +5,7 @@ from .models import *
 class CustomUserSerializer(serializers.ModelSerializer):
     class Meta:
         model = CustomUser
-        fields = ['__all__']
+        fields = '__all__'
 
 # Patient Serializer
 class PatientSerializer(serializers.ModelSerializer):
@@ -13,7 +13,7 @@ class PatientSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Patient
-        fields = ['__all__']
+        fields = '__all__'
 
 # Staff Serializer
 class StaffSerializer(serializers.ModelSerializer):
@@ -21,4 +21,4 @@ class StaffSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Staff
-        fields = ['__all__']
+        fields = '__all__'

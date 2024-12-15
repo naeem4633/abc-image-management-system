@@ -7,7 +7,7 @@ class MedicalImageSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = MedicalImage
-        fields = ['__all__']
+        fields = '__all__'
 
 # Diagnosis Serializer
 class DiagnosisSerializer(serializers.ModelSerializer):
@@ -16,7 +16,7 @@ class DiagnosisSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Diagnosis
-        fields = ['__all__']
+        fields = '__all__'
 
 # Report Serializer
 class ReportSerializer(serializers.ModelSerializer):
@@ -26,4 +26,4 @@ class ReportSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Report
-        fields = ['__all__']
+        fields = '__all__'
